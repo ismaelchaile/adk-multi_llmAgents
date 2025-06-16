@@ -1,0 +1,33 @@
+#No real-time cloud services info
+In short, provide a pricing in euros for the comparison of cloud run 1st generation and 2nd generation for the case of 10 millions requests a day and in the europe west 1 region.
+In short, which is better GCP or AWS
+
+#Getting real time info using google_search tool
+give me the current status of firebase real-time database Google cloud service
+provide the firebase real-time database Google cloud service status at 12 Jun 2025 13:03 PDT
+
+#Embedded systems agent
+In short, what a embedded system is and where we find it.
+
+#Developer expert
+Next code has errors: 
+function ismael(){
+    await console.log("adk rocks)
+}
+- Return it with the errors fixed
+
+#Forced launch for the specific agent, due orchestrator does not do a deterministic routing to the right agent
+#1
+Launch the developer expert due that next code has errors: 
+function ismael(){
+    await console.log("adk rocks)
+}
+- Return it with the errors fixed
+
+#2
+Return to orchestrator agent, then launch the embedded system agent to answer in short, what a embedded system is and where we find it.
+#3
+Return to orchestrator agent, then launch the cloud expert to answer in short, provide a pricing in euros for the comparison of cloud run 1st generation and 2nd generation for the case of 10 millions requests a day and in the europe west 1 region.
+
+#4
+Return to orchestrator agent, then launch the realTime cloud expert to answer the current status of firebase real-time database Google cloud service

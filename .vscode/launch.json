@@ -1,0 +1,26 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Python: ADK Run Agent",
+            "type": "python",
+            "request": "launch",
+            "program": "agent.py", // Adjust this path to your main agent file
+            "console": "integratedTerminal", // Or "internalConsole"
+            //"cwd": "${workspaceFolder}",
+            "cwd": "${fileDirname}", // <<< This is the key: sets CWD to the directory of the current file
+            "env": {
+                "GOOGLE_GENAI_USE_VERTEXAI": "false",
+                "GOOGLE_API_KEY": "YOUR_GOOGLE_AI_STUDIO_API_KEY",
+                "AGENT_MODE": "DEBUG"
+            },
+            "args": [
+                // If you run your agent with 'adk run your_agent_name',
+                // you might need to replicate how 'adk' calls your agent.
+                // However, directly running the Python file is usually simpler for debugging.
+            ],
+            //"envFile": "${workspaceFolder}/multi_llmAgents/.env", // If you have a .env file at the root
+            "justMyCode": true // Set to false if you want to step into ADK library code
+        }
+    ]
+}
